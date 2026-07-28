@@ -144,7 +144,31 @@ tbody tr.clickable{cursor:pointer}
 .app{display:block}.content{padding:0}
 }
 @media(max-width:1100px){.g3{grid-template-columns:repeat(2,1fr)}.ficha{grid-template-columns:1fr}}
-@media(max-width:760px){.g2,.g3{grid-template-columns:1fr}.sidebar{position:fixed;z-index:100;width:62px}.sidebar .brand .t,.sidebar .nav-item span{display:none}}
+@media(max-width:760px){
+ .g2,.g3{grid-template-columns:1fr}
+ .sidebar{position:fixed;z-index:100;width:62px}
+ .sidebar .brand .t,.sidebar .nav-item span{display:none}
+ .content{padding:16px 12px 60px}
+ .topbar{flex-direction:column;gap:8px;padding:10px 12px}
+ .topbar h1{font-size:18px}
+ .topbar .sub{display:none}
+ .priv{font-size:9px;padding:3px 8px}
+ .kpis{grid-template-columns:1fr}
+ .kpi{padding:12px}
+ .kpi .v{font-size:24px}
+ .card{padding:12px}
+ .card h3{font-size:13px;margin-bottom:8px}
+ .chart-wrap{height:220px}
+ .chart-wrap.tall{height:260px}
+ .fgrid{grid-template-columns:1fr}
+ table{font-size:11px;min-width:100%}
+ thead th{padding:6px 8px}
+ tbody td{padding:6px 8px}
+ .ficha{gap:12px}
+ .datalist{grid-template-columns:1fr;gap:4px 8px}
+ .section-title{font-size:18px}
+ .filterbar{padding:10px 12px;margin-bottom:12px}
+}
 </style>
 </head>
 <body>
